@@ -7,6 +7,7 @@
     <link href="https://fonts.cdnfonts.com/css/maipo-sans" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
 </head>
 <body class="bg-light">
 <header>
@@ -43,10 +44,7 @@
 </header>
 
 <div class="container py-5 flex-fill">
-    <div>
-
-    </div>
-    <div class="position-relative mb-5">
+    <div class="position-relative mb-5 wow slideInLeft">
         <img height="400" class="w-100 rounded" src="assets/img/bureau.jpeg" alt="Personnes" style="object-fit: cover">
 
         <div class="position-absolute top-0 p-5 text-white">
@@ -60,7 +58,7 @@
         </div>
     </div>
 
-    <div class="d-flex flex-column align-items-center">
+    <div class="d-flex flex-column align-items-center wow fadeIn">
         <a href="apprendre.html" class="position-relative">
             <div class="position-absolute top-50 start-50 translate-middle text-thm z-1">
                 <div class="bar border-thm"></div>
@@ -114,5 +112,9 @@
 </footer>
 
 <script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
 </body>
 </html>

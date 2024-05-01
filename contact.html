@@ -7,6 +7,7 @@
     <link href="https://fonts.cdnfonts.com/css/maipo-sans" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
 </head>
 <body class="bg-light">
 <header>
@@ -43,15 +44,20 @@
 </header>
 
 <div class="container py-5 flex-fill">
-    <div class="position-relative mb-5">
-        <img height="400" class="w-100" src="assets/img/personnes.jpeg" alt="Personnes" style="object-fit: cover">
+    <div class="position-relative mb-5 wow slideInLeft">
+        <img height="400" class="w-100 rounded" src="assets/img/contact.jpeg" alt="Personnes" style="object-fit: cover">
 
-        <div class="position-absolute top-0 p-5">
-            <h1 class="text-white">NOUS CONTACTER</h1>
+        <div class="position-absolute top-0 p-5 text-white">
+            <h1>NOUS CONTACTER</h1>
+
+            <p>
+                Besoin de conseil sur le logement, de conseil en rénovation ou autre, l'asbl vous répondra avec plaisir, notre secrétariat est aussi disponible pour vous aider : <br>
+                <span class="text-thm">Logement :</span> Sur rendez-vous lundi, mardi et mercredi de 09h30 à 12h00, problème de logement, d'insalubrité, difficulté locataire-propriétaire, info …
+            </p>
         </div>
     </div>
 
-    <div class="card shadow">
+    <div class="card shadow wow fadeIn">
         <div class="card-header bg-white p-3">
             <h2 class="card-title">Formulaire de contact</h2>
         </div>
@@ -100,5 +106,9 @@
 </footer>
 
 <script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
 </body>
 </html>

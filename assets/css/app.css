@@ -30,7 +30,6 @@ body {
 input, textarea {
     border-radius: 10px !important;
     background-color: #f5f5f5 !important;
-    border: none !important;
     padding: 10px !important;
 }
 
