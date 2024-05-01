@@ -1,0 +1,28 @@
+body {
+    font-family: 'Maipo Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.btn-thm {
+    background-color: #F4796C;
+    color: #fff;
+}
+
+.btn-thm:hover {
+    background-color: #cc655a;
+    color: #fff;
+}
+
+.text-thm {
+    color: #F4796C;
+}
+
+input, textarea {
+    border-radius: 10px !important;
+    background-color: #f5f5f5 !important;
+    border: none !important;
+    padding: 10px !important;
+}
+
