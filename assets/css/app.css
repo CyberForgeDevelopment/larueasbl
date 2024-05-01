@@ -16,7 +16,15 @@ body {
 }
 
 .text-thm {
-    color: #F4796C;
+    color: #F4796C !important;
+}
+
+.text-purple {
+    color: mediumorchid !important;
+}
+
+.text-khaki {
+    color: khaki !important;;
 }
 
 input, textarea {
@@ -26,3 +34,35 @@ input, textarea {
     padding: 10px !important;
 }
 
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.bar {
+    width: 60px;
+    border: 4px solid white;
+}
+
+.border-thm {
+    border-color: #F4796C !important;
+}
+
+.border-purple {
+    border-color: mediumorchid !important;
+}
+
+.border-khaki {
+    border-color: khaki !important;
+}
+
+.blur-hover {
+    transition: all .1s;
+}
+.blur-hover:hover {
+    webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+    filter: blur(4px);
+}
+
+.z-1 {
+    z-index: 1;
+}
