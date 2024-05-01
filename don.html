@@ -2,12 +2,13 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Aider - La Rue asbl</title>
+    <title>Don - La Rue asbl</title>
 
     <link href="https://fonts.cdnfonts.com/css/raleway-5" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/app.css">
     <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
 </head>
 <body>
 <header class="sticky-top">
@@ -36,11 +37,11 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="apprendre.html" id="selogerDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="apprendre.html" id="selogerDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Se loger
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="selogerDropdown">
-                            <li><a class="dropdown-item active" href="aide.html">Aide</a></li>
+                            <li><a class="dropdown-item" href="aide.html">Aide</a></li>
                             <li><a class="dropdown-item" href="index.html">Infos et sensibilisation</a></li>
                         </ul>
                     </li>
@@ -64,11 +65,11 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="apprendre.html" id="aideDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle active" href="apprendre.html" id="aideDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Nous aider
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="aideDropdown">
-                            <li><a class="dropdown-item" href="don.html">Don</a></li>
+                            <li><a class="dropdown-item active" href="don.html">Don</a></li>
                             <li><a class="dropdown-item" href="benevolat.html">Bénévolats</a></li>
                         </ul>
                     </li>
@@ -86,43 +87,58 @@
 
 <div class="container py-5 flex-fill">
     <div class="wow slideInLeft">
-        <h1 class="text-center">Accompagnement Logement</h1>
+        <h1 class="text-center">Bénévolat</h1>
         <div class="d-flex justify-content-center mb-3">
             <div class="bar border-thm"></div>
         </div>
     </div>
 
-    <div class="wow fadeIn">
-        <p class="text-justify">
-            La mission principale de l’accompagnement logement est de permettre aux personnes « fragilisées » habitant les quartiers du Vieux Molenbeek, une réinsertion sociale par le
-            logement à travers un travail d’accompagnement et de sensibilisation dans le cadre du programme Insertion par le Logement. Les différents objectifs :
-        </p>
+    <div class="row">
+        <div class="col-lg-7 wow fadeIn">
+            <p class="text-justify">
+                Ensemble, cultivons l'avenir de la jeunesse de Molenbeek !
+                Chaque don compte pour offrir des opportunités éducatives,
+                culturelles et un soutien crucial aux familles. Rejoignez-nous
+                dans notre mission en faisant un don dès aujourd'hui.
+                Votre contribution façonne un avenir meilleur pour notre
+                communauté.
+            </p>
+        </div>
 
-        <ul>
-            <li>Assurer un accompagnement social (individuel, collectif et communautaire) auprès des habitants principalement locataires.</li>
-            <li>Participer au développement des nouvelles alternatives du logement (Comme les CLT –Community Land Trust ).</li>
-            <li>Informer et sensibiliser à mieux vivre son logement.</li>
-            <li>Faire régulièrement le relais et l’interpellation, vis à vis des autorités.</li>
-        </ul>
+        <div class="col-lg-5">
+            <div class="rounded border p-3 shadow">
+                <h2>Montant de la donation</h2>
+                <input name="donation" id="donationMensuelle" type="radio">
+                <label for="donationMensuelle">Mensuelle</label>
 
-        <p>
-            Quelques actions et projets :
-        </p>
+                <input name="donation" id="donationAnnuelle" type="radio">
+                <label for="donationAnnuelle">Annuelle</label>
 
-        <ul>
-            <li>Création du Groupe SASUDU, un groupe d’action citoyen pour le droit au logement.</li>
-            <li>Réalisation du Mémorandum pour le droit au logement.</li>
-            <li>Un projet d’habitat solidaire</li>
-        </ul>
+                <div class="row g-2 mt-2">
+                    <div class="col-4">
+                        <div class="p-3 text-center border">5€</div>
+                    </div>
+                    <div class="col-4">
+                        <div class="p-3 text-center border">10€</div>
+                    </div>
+                    <div class="col-4">
+                        <div class="p-3 text-center border">20€</div>
+                    </div>
+                    <div class="col-6">
+                        <div class="p-3 text-center border">40€</div>
+                    </div>
+                    <div class="col-6">
+                        <div class="p-3 text-center border">60€</div>
+                    </div>
+                </div>
 
-        <p>
-            Infos pratiques :
-        </p>
-
-        <ul>
-            <li>Pour plus de détails, veuillez consulter notre rapport d’activités.</li>
-            <li>Site du RBDH – Rassemblement Bruxellois pour le Droit à l’Habitat</li>
-        </ul>
+                <div class="d-flex justify-content-end mt-3">
+                    <button class="btn btn-thm">
+                        Carte de crédit
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -151,3 +167,5 @@
 </script>
 </body>
 </html>
+
+
