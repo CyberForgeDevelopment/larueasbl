@@ -87,3 +87,14 @@ input, textarea {
 .hover-opacity-50:hover {
     opacity: 50% !important;
 }
+
+.btn-thm-outline {
+    border: 2px solid #EF5B5B;
+    transition: all .3s;
+    color: black;
+}
+
+.btn-thm-outline:hover {
+    color: white;
+    background-color: #EF5B5B;
+}
