@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Don - La Rue asbl</title>
+    <title>Paiement - La Rue asbl</title>
 
     <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -87,54 +87,46 @@
 
 <div class="container py-5 flex-fill">
     <div class="wow slideInLeft">
-        <h1 class="text-center">Don</h1>
+        <h1 class="text-center">Paiement du don</h1>
         <div class="d-flex justify-content-center mb-3">
             <div class="bar border-thm"></div>
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-lg-7 wow fadeIn">
-            <p class="text-justify">
-                Ensemble, cultivons l'avenir de la jeunesse de Molenbeek !
-                Chaque don compte pour offrir des opportunités éducatives,
-                culturelles et un soutien crucial aux familles. Rejoignez-nous
-                dans notre mission en faisant un don dès aujourd'hui.
-                Votre contribution façonne un avenir meilleur pour notre
-                communauté.
-            </p>
-        </div>
-
-        <div class="col-lg-5">
-            <div class="rounded border p-3 shadow">
-                <h2>Montant de la donation</h2>
-
-                <div class="row g-2 mt-2">
-                    <div class="col-4">
-                        <a href="paiement.html" class="btn btn-thm-outline w-100 p-3">5€</a>
-                    </div>
-                    <div class="col-4">
-                        <a href="paiement.html" class="btn btn-thm-outline w-100 p-3">10€</a>
-                    </div>
-                    <div class="col-4">
-                        <a href="paiement.html" class="btn btn-thm-outline w-100 p-3">20€</a>
-                    </div>
-                    <div class="col-6">
-                        <a href="paiement.html" class="btn btn-thm-outline w-100 p-3">40€</a>
-                    </div>
-                    <div class="col-6">
-                        <a href="paiement.html" class="btn btn-thm-outline w-100 p-3">60€</a>
-                    </div>
-                </div>
-
-                <div class="d-flex justify-content-end mt-3">
-                    <a href="paiement.html" class="btn btn-secondary">
-                        Faire un don
-                    </a>
+    <form class="card px-4" onsubmit="alert('Merci pour votre don !')">
+        <p class="h8 py-3">Details</p>
+        <div class="row gx-3">
+            <div class="col-12">
+                <div class="d-flex flex-column">
+                    <p class="text mb-1">Nom</p>
+                    <input required class="form-control mb-3" type="text">
                 </div>
             </div>
+            <div class="col-12">
+                <div class="d-flex flex-column">
+                    <p class="text mb-1">Numéro de carte</p>
+                    <input required class="form-control mb-3" type="text">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="d-flex flex-column">
+                    <p class="text mb-1">Date de validité</p>
+                    <input required class="form-control mb-3" type="text">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="d-flex flex-column">
+                    <p class="text mb-1">CVV/CVC</p>
+                    <input required class="form-control mb-3 pt-2 " type="password" placeholder="***">
+                </div>
+            </div>
+            <div class="col-12 text-end">
+                <button type="submit" class="btn btn-thm mb-3">
+                    <span>Payer 40€</span>
+                </button>
+            </div>
         </div>
-    </div>
+    </form>
 </div>
 
 <footer class="border-top py-3 bg-white">
