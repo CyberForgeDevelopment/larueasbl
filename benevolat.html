@@ -110,6 +110,46 @@
             L’expérience vous tente ? Prenez sans attendre contact pour nous soumettre vos questions, suggestions, avoir des précisions concernant le cadre, les conditions et les modalités pratiques.
         </p>
     </div>
+
+    <div class="wow bounceInRight mt-4">
+        <div class="card shadow wow fadeIn">
+            <div class="card-header bg-white p-3">
+                <h2 class="card-title">Rejoignez-nous !</h2>
+            </div>
+            <div class="card-body" onsubmit="alert('Merci pour votre inscription ! Nous vous contacterons dans les plus brefs délais.')">
+                <form class="row g-3" id="registerForm">
+                    <div class="col-lg-6">
+                        <label for="name" class="form-label">Nom</label>
+                        <input type="text" class="form-control" id="name" name="name">
+                    </div>
+                    <div class="col-lg-6">
+                        <label for="lastname" class="form-label">Prénom</label>
+                        <input type="text" class="form-control" id="lastname" name="lastname">
+                    </div>
+                    <div class="col-lg-6">
+                        <label for="phone" class="form-label">Téléphone</label>
+                        <input type="tel" class="form-control" id="phone" name="phone">
+                    </div>
+                    <div class="col-lg-6">
+                        <label for="email" class="form-label">Adresse e-mail</label>
+                        <input type="email" class="form-control" id="email" name="email">
+                    </div>
+                    <div class="col-lg-6">
+                        <label for="password" class="form-label">Mot de passe</label>
+                        <input type="password" class="form-control" id="password" name="password">
+                    </div>
+                    <div class="col-lg-6">
+                        <label for="passwordConfirm" class="form-label">Confirmer le mot de passe</label>
+                        <input type="password" class="form-control" id="passwordConfirm" name="passwordConfirm">
+                    </div>
+                </form>
+            </div>
+
+            <div class="card-footer bg-white text-end p-3">
+                <button form="registerForm" type="submit" class="btn btn-thm">S'enregistrer</button>
+            </div>
+        </div>
+    </div>
 </div>
 
 <footer class="border-top py-3 bg-white">
