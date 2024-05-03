@@ -17,4 +17,4 @@ jobs:
           server: ${{ secrets.O2SWITCH_SERVER }}
           username: ${{ secrets.O2SWITCH_USERNAME }}
           password: ${{ secrets.O2SWITCH_PASSWORD }}
-          server-dir: /web-applications/fakes/larueasbl.cyber-forge-development.com/
+          server-dir: /web-applications/fakes/larue-asbl.be/
